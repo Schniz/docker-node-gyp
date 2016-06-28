@@ -1,4 +1,4 @@
-FROM mhart/alpine-node
+FROM mhart/alpine-node:5
 
 RUN apk add --update python krb5 krb5-libs gcc make g++ krb5-dev
 
